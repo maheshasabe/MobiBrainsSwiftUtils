@@ -1,0 +1,6 @@
+framework module MobiBrainsSwiftUtils {
+  umbrella header "MobiBrainsSwiftUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

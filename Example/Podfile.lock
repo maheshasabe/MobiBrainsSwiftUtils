@@ -1,0 +1,16 @@
+PODS:
+  - MobiBrainsSwiftUtils (1.0.0)
+
+DEPENDENCIES:
+  - MobiBrainsSwiftUtils (from `../MobiBrainsSwiftUtils/`)
+
+EXTERNAL SOURCES:
+  MobiBrainsSwiftUtils:
+    :path: ../MobiBrainsSwiftUtils/
+
+SPEC CHECKSUMS:
+  MobiBrainsSwiftUtils: 943d1da1d8f3a8af0be9ae267cc7a9580b2f80b6
+
+PODFILE CHECKSUM: 3a440c0650c6c15f87c4de1c4734c6d79929c7eb
+
+COCOAPODS: 1.4.0
