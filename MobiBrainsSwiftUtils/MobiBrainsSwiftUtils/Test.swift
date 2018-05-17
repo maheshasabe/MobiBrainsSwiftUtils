@@ -11,6 +11,6 @@ import Foundation
 public class TestClass {
     
     public static func getFrameWorkName() -> String {
-        return "Framework name is MobiBrainsSwiftUtils"
+        return "My name is MobiBrainsSwiftUtils"
     }
 }
