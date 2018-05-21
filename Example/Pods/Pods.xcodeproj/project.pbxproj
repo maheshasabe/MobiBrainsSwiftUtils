@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		02FC8F31D7C93146E252193879237173 /* Pods-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5E91F9E96DB68B2D831B8DE72656E /* Pods-ExampleUITests-dummy.m */; };
+		0C35FD8058743090FBF9AF28369F9023 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9178ADC45105A08340BAEA193A183C /* ArrayExtensions.swift */; };
 		13CE8CBC7F164B38AFC707ABFC1FDF25 /* Pods-ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BDB9E0506FDAC34057A0F38A06D5F6 /* Pods-ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BD9C18B939E3AAFA21A7F8DDAE21428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		224F3F83040F57E0D5F2E82F2EE06718 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = B95F8858ABD9ECD6A0264ACC7EF4AC40 /* Info.plist */; };
+		31453A4D8206F68CD43DDF308636F0DC /* MobiBrainsSwiftUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A685DFF11C04F69EFFCA9960BA43 /* MobiBrainsSwiftUtils-dummy.m */; };
 		3753068332C503755F22AE6D2072AD2B /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AC818120914D7E44A9BD65DB3BD312 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		679D285347677F701DA3537CFAD4AEE8 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBFC71A652B0FA523497FFE44F4A0E /* Test.swift */; };
-		70D1DE76BFD114635E48A6B929C990B7 /* MobiBrainsSwiftUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60078ED70C84097AAECD4B07DBC940C1 /* MobiBrainsSwiftUtils-dummy.m */; };
+		3B44932582D7B3E4812B491DB85C4B48 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D025321EF55C8A302E2D079F73752B6 /* ColorExtension.swift */; };
+		4343761EF131E16D77160FD6C8EA6897 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D0B3E1FDA446FE3F9E04034CAE42D1AA /* Info.plist */; };
+		65A172291B7CDA0F72863244508F1BB3 /* MobiBrainsSwiftUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BFE3FD72CC1E1F9BC8E8A918BA5EFA /* MobiBrainsSwiftUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A24B1C90C6C48F61E1661A25C9DB600 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC4DD7DB123433320D518DAB07B1264 /* AppInfo.swift */; };
+		6EDE7F305D992E7A36D9D9A97BD209B2 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58DE049785EFE4E56EDF62C79A4379B /* DictionaryExtensions.swift */; };
+		8A09C3BE6D815113C59CABA135F258EF /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5471968E3FC399D50E91B901E655A4E /* Log.swift */; };
+		8B66EB91AD56B7A8F57DBF8DF680E3FD /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F8C97F58D5867D6108E22DC04F746 /* Validator.swift */; };
+		8DFB3AAA2D33165C4E541ED2A5F89514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9EDD86275CAAB4A284F59F9B0FCA99EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B80CB807C08A7411F00852F3B4645A9A /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E6B6EE5EE24C4E9F7152C2541FB8AE /* Pods-Example-dummy.m */; };
-		C385CE01918B15662CD74298BD5892D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E0A5D1BA8DAADAC1B7BC2F89D1A0CE36 /* MobiBrainsSwiftUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ABB201004393AF60F25AF15FEE2377 /* MobiBrainsSwiftUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6865CEE8F413E6A46BD531050D61428 /* MobiBrainsSwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8AD606FFAB42908E2B66E8A2578D21 /* MobiBrainsSwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32C0DC3755D0223DA5EC89694F9A4FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD57F237F7B268B275670DA7903BCC25 /* Theme.swift */; };
+		D676C381F167D15E2FE0FE5873D1AA59 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061F2A52C7D8E7338B2F73EE0E5A573 /* CGRectExtensions.swift */; };
+		D6D39F1FC31FBB06561D5F1804B3DEE4 /* MobiBrainsSwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E003D9E93545B37F55A0E292D8A50FF7 /* MobiBrainsSwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67421FD4F12445D37900085CACC8FE2 /* UITextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EBAE7515ED5EC5A3A7D95308C3033 /* UITextfieldExtension.swift */; };
+		F805A2F20D117927916387D03B942D80 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257D7BF3D1893B944137B781E54F45E /* UILabelExtensions.swift */; };
+		F975FDA5124F71B4258954F7948A1B4D /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8436C6C2DDACC0BE7D5D483B976E23 /* CGFloatExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,44 +36,54 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADD3749579EB97064F28C22611200A1C;
+			remoteGlobalIDString = FB2D0E15688C384F556580EEB81BD10D;
 			remoteInfo = MobiBrainsSwiftUtils;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		15926D7E8D4850F3B627CCD7D243B41F /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16B31367725BD828BFFAC71F5F0EF942 /* MobiBrainsSwiftUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MobiBrainsSwiftUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F8EBAE7515ED5EC5A3A7D95308C3033 /* UITextfieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextfieldExtension.swift; sourceTree = "<group>"; };
+		2257D7BF3D1893B944137B781E54F45E /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 		24F3CA7077AE1011898D61388CF4613D /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		25B4CF78FDB7536B8429F3DF266C0773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25DB2FD91F5180DD775B64C4587DC519 /* Pods-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2D8AD606FFAB42908E2B66E8A2578D21 /* MobiBrainsSwiftUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobiBrainsSwiftUtils.h; path = MobiBrainsSwiftUtils/MobiBrainsSwiftUtils.h; sourceTree = "<group>"; };
+		2FBAAE2EE781AE2FB6C16E2D9F2853E4 /* MobiBrainsSwiftUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobiBrainsSwiftUtils.modulemap; sourceTree = "<group>"; };
+		3C8436C6C2DDACC0BE7D5D483B976E23 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		41621EE03864BE364EC10F16D953BAB6 /* Pods-ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleUITests.modulemap"; sourceTree = "<group>"; };
 		42D132A964275FD1E906FCC3A3465D82 /* MobiBrainsSwiftUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobiBrainsSwiftUtils.framework; path = MobiBrainsSwiftUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E4A9039D51A0048F1F05A53AD15141 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BDBFC71A652B0FA523497FFE44F4A0E /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test.swift; path = MobiBrainsSwiftUtils/Test.swift; sourceTree = "<group>"; };
+		5061F2A52C7D8E7338B2F73EE0E5A573 /* CGRectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRectExtensions.swift; sourceTree = "<group>"; };
 		50A032BD96FA5E00FB90F8871E159E41 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5756CFADDA8CC0894D35006BA472E9A5 /* MobiBrainsSwiftUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobiBrainsSwiftUtils.modulemap; sourceTree = "<group>"; };
+		586CE93393EF57C0F36D06D6D71E4E7D /* MobiBrainsSwiftUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobiBrainsSwiftUtils-prefix.pch"; sourceTree = "<group>"; };
 		5B4634DF15D4C6D5D24F5A9B0711F5AC /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		60078ED70C84097AAECD4B07DBC940C1 /* MobiBrainsSwiftUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobiBrainsSwiftUtils-dummy.m"; sourceTree = "<group>"; };
 		610D9506966E59C117CE98D31AE1191F /* Pods-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		61504DFE7970B1E58E8C96FBE9711EAD /* Pods-ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleUITests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6AC5E91F9E96DB68B2D831B8DE72656E /* Pods-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		71AC818120914D7E44A9BD65DB3BD312 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		7859A4C8B8D8333CF228B36AB6D86853 /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleUITests.framework; path = "Pods-ExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9178ADC45105A08340BAEA193A183C /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		8D335A241151E474060B73BB42F27B4F /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94E6B6EE5EE24C4E9F7152C2541FB8AE /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		99DA547E7FD4E22B3FF0A54C8EBB0620 /* Pods-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9CB9A864036CA96D9184251844DA30EC /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D025321EF55C8A302E2D079F73752B6 /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		9D1F1F2491430D208DD566CB47933972 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF22D2827E5A01949EBCB66098C54AFE /* MobiBrainsSwiftUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MobiBrainsSwiftUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B95F8858ABD9ECD6A0264ACC7EF4AC40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = MobiBrainsSwiftUtils/Info.plist; sourceTree = "<group>"; };
-		BCC8ED6DB4ACDA8762D75B20D303725D /* MobiBrainsSwiftUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobiBrainsSwiftUtils-prefix.pch"; sourceTree = "<group>"; };
+		A9BFE3FD72CC1E1F9BC8E8A918BA5EFA /* MobiBrainsSwiftUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobiBrainsSwiftUtils-umbrella.h"; sourceTree = "<group>"; };
+		AEC4DD7DB123433320D518DAB07B1264 /* AppInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		AFE0A685DFF11C04F69EFFCA9960BA43 /* MobiBrainsSwiftUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobiBrainsSwiftUtils-dummy.m"; sourceTree = "<group>"; };
 		C214237980B68E49179BD4121B98595C /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		C37BF047EDE7D3653E5E512548CAB7DB /* MobiBrainsSwiftUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobiBrainsSwiftUtils.xcconfig; sourceTree = "<group>"; };
-		C9ABB201004393AF60F25AF15FEE2377 /* MobiBrainsSwiftUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobiBrainsSwiftUtils-umbrella.h"; sourceTree = "<group>"; };
+		C4DA3E6FF2FC26B38F35677A8CB96DF1 /* MobiBrainsSwiftUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobiBrainsSwiftUtils.xcconfig; sourceTree = "<group>"; };
+		D0B3E1FDA446FE3F9E04034CAE42D1AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = MobiBrainsSwiftUtils/Info.plist; sourceTree = "<group>"; };
 		D4BDB9E0506FDAC34057A0F38A06D5F6 /* Pods-ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
-		DEBEE6968A43BE8DB9A32BEDB7F21680 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5471968E3FC399D50E91B901E655A4E /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		D58DE049785EFE4E56EDF62C79A4379B /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
+		DD57F237F7B268B275670DA7903BCC25 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E003D9E93545B37F55A0E292D8A50FF7 /* MobiBrainsSwiftUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobiBrainsSwiftUtils.h; path = MobiBrainsSwiftUtils/MobiBrainsSwiftUtils.h; sourceTree = "<group>"; };
+		E43F8C97F58D5867D6108E22DC04F746 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		F205DF5D7B34741E63CDD9A6E6BECEC1 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB22F278A9DB0607ED3AD6E2CCF4BA37 /* Pods-ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		FDCCCBA5E0345DF06DE1EC72674C9232 /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,14 +98,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		889148568F1E78FD11F8F0CCD8F755D9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C385CE01918B15662CD74298BD5892D2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AA6B6087767E4915A9FD657C1933B38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,9 +106,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F44DF4CBEE8B9F62428361CDD926C955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFB3AAA2D33165C4E541ED2A5F89514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188A73A40C6B77B0348623663E21F193 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C28F428F05B376B4ACB924DF4BB0C620 /* MobiBrainsSwiftUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1BE9313FC950A12DD6AEF3BDD404DEEB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				16B31367725BD828BFFAC71F5F0EF942 /* MobiBrainsSwiftUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1CEB9EC9F99DBB6E3A70E72958045A74 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,19 +142,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		52F91154E1A08DAF869A82698236A067 /* Pod */ = {
+		4C0A4F2E985EDA262E3426F8BC0F9252 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				AF22D2827E5A01949EBCB66098C54AFE /* MobiBrainsSwiftUtils.podspec */,
+				DD57F237F7B268B275670DA7903BCC25 /* Theme.swift */,
 			);
-			name = Pod;
+			name = Theme;
+			path = MobiBrainsSwiftUtils/Theme;
+			sourceTree = "<group>";
+		};
+		65B7B2DF3FD7D3DED9A5CD932E411C9C /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AEC4DD7DB123433320D518DAB07B1264 /* AppInfo.swift */,
+			);
+			name = AppInfo;
+			path = MobiBrainsSwiftUtils/AppInfo;
+			sourceTree = "<group>";
+		};
+		6EC5718CAB88897F79D71D366B5485E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B4CF78FDB7536B8429F3DF266C0773 /* Info.plist */,
+				2FBAAE2EE781AE2FB6C16E2D9F2853E4 /* MobiBrainsSwiftUtils.modulemap */,
+				C4DA3E6FF2FC26B38F35677A8CB96DF1 /* MobiBrainsSwiftUtils.xcconfig */,
+				AFE0A685DFF11C04F69EFFCA9960BA43 /* MobiBrainsSwiftUtils-dummy.m */,
+				586CE93393EF57C0F36D06D6D71E4E7D /* MobiBrainsSwiftUtils-prefix.pch */,
+				A9BFE3FD72CC1E1F9BC8E8A918BA5EFA /* MobiBrainsSwiftUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/MobiBrainsSwiftUtils";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DBFF0F8ED17378D891F1C6ADC548F5B8 /* Development Pods */,
+				188A73A40C6B77B0348623663E21F193 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8A0293556340CD0DAC90404E0252D960 /* Products */,
 				1CEB9EC9F99DBB6E3A70E72958045A74 /* Targets Support Files */,
@@ -153,25 +213,44 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		B306C247F19EF5B3AE37269E16A104E6 /* MobiBrainsSwiftUtils */ = {
-			isa = PBXGroup;
-			children = (
-				B95F8858ABD9ECD6A0264ACC7EF4AC40 /* Info.plist */,
-				2D8AD606FFAB42908E2B66E8A2578D21 /* MobiBrainsSwiftUtils.h */,
-				4BDBFC71A652B0FA523497FFE44F4A0E /* Test.swift */,
-				52F91154E1A08DAF869A82698236A067 /* Pod */,
-				F01A13AC13B371B62F99F397C3B4A347 /* Support Files */,
-			);
-			name = MobiBrainsSwiftUtils;
-			path = ../../MobiBrainsSwiftUtils;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28F428F05B376B4ACB924DF4BB0C620 /* MobiBrainsSwiftUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D0B3E1FDA446FE3F9E04034CAE42D1AA /* Info.plist */,
+				E003D9E93545B37F55A0E292D8A50FF7 /* MobiBrainsSwiftUtils.h */,
+				65B7B2DF3FD7D3DED9A5CD932E411C9C /* AppInfo */,
+				C6A519032C2B799DADD8606439840F1F /* Extensions */,
+				ECBD3AE6CF6CEA5168172B9D773567F1 /* Log */,
+				1BE9313FC950A12DD6AEF3BDD404DEEB /* Pod */,
+				6EC5718CAB88897F79D71D366B5485E6 /* Support Files */,
+				4C0A4F2E985EDA262E3426F8BC0F9252 /* Theme */,
+				D292A334A30E049FA1892D1672979917 /* Validation */,
+			);
+			name = MobiBrainsSwiftUtils;
+			path = ../../MobiBrainsSwiftUtils;
+			sourceTree = "<group>";
+		};
+		C6A519032C2B799DADD8606439840F1F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A9178ADC45105A08340BAEA193A183C /* ArrayExtensions.swift */,
+				3C8436C6C2DDACC0BE7D5D483B976E23 /* CGFloatExtensions.swift */,
+				5061F2A52C7D8E7338B2F73EE0E5A573 /* CGRectExtensions.swift */,
+				9D025321EF55C8A302E2D079F73752B6 /* ColorExtension.swift */,
+				D58DE049785EFE4E56EDF62C79A4379B /* DictionaryExtensions.swift */,
+				2257D7BF3D1893B944137B781E54F45E /* UILabelExtensions.swift */,
+				1F8EBAE7515ED5EC5A3A7D95308C3033 /* UITextfieldExtension.swift */,
+			);
+			name = Extensions;
+			path = MobiBrainsSwiftUtils/Extensions;
 			sourceTree = "<group>";
 		};
 		C8C82E814855586A7EC7C3391F2667BF /* Pods-ExampleUITests */ = {
@@ -192,6 +271,15 @@
 			path = "Target Support Files/Pods-ExampleUITests";
 			sourceTree = "<group>";
 		};
+		D292A334A30E049FA1892D1672979917 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				E43F8C97F58D5867D6108E22DC04F746 /* Validator.swift */,
+			);
+			name = Validation;
+			path = MobiBrainsSwiftUtils/Validation;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,45 +288,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DBFF0F8ED17378D891F1C6ADC548F5B8 /* Development Pods */ = {
+		ECBD3AE6CF6CEA5168172B9D773567F1 /* Log */ = {
 			isa = PBXGroup;
 			children = (
-				B306C247F19EF5B3AE37269E16A104E6 /* MobiBrainsSwiftUtils */,
+				D5471968E3FC399D50E91B901E655A4E /* Log.swift */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F01A13AC13B371B62F99F397C3B4A347 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DEBEE6968A43BE8DB9A32BEDB7F21680 /* Info.plist */,
-				5756CFADDA8CC0894D35006BA472E9A5 /* MobiBrainsSwiftUtils.modulemap */,
-				C37BF047EDE7D3653E5E512548CAB7DB /* MobiBrainsSwiftUtils.xcconfig */,
-				60078ED70C84097AAECD4B07DBC940C1 /* MobiBrainsSwiftUtils-dummy.m */,
-				BCC8ED6DB4ACDA8762D75B20D303725D /* MobiBrainsSwiftUtils-prefix.pch */,
-				C9ABB201004393AF60F25AF15FEE2377 /* MobiBrainsSwiftUtils-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/MobiBrainsSwiftUtils";
+			name = Log;
+			path = MobiBrainsSwiftUtils/Log;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		38A8F8FCBCC98457356553311F15A65D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0A5D1BA8DAADAC1B7BC2F89D1A0CE36 /* MobiBrainsSwiftUtils-umbrella.h in Headers */,
-				F6865CEE8F413E6A46BD531050D61428 /* MobiBrainsSwiftUtils.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4809D7F6A7EF63C94F23E8F59BA52BA0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				13CE8CBC7F164B38AFC707ABFC1FDF25 /* Pods-ExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04647002D524D9C95E9E2ED29C8247D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A172291B7CDA0F72863244508F1BB3 /* MobiBrainsSwiftUtils-umbrella.h in Headers */,
+				D6D39F1FC31FBB06561D5F1804B3DEE4 /* MobiBrainsSwiftUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,13 +363,13 @@
 			productReference = 7859A4C8B8D8333CF228B36AB6D86853 /* Pods_ExampleUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ADD3749579EB97064F28C22611200A1C /* MobiBrainsSwiftUtils */ = {
+		FB2D0E15688C384F556580EEB81BD10D /* MobiBrainsSwiftUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73703BBD0DA6586137364AE80A5B859D /* Build configuration list for PBXNativeTarget "MobiBrainsSwiftUtils" */;
+			buildConfigurationList = 79006E47A476CCAA5D3BB1656A589730 /* Build configuration list for PBXNativeTarget "MobiBrainsSwiftUtils" */;
 			buildPhases = (
-				56F2C2C58F694D62A2786658CC7FA2F2 /* Sources */,
-				889148568F1E78FD11F8F0CCD8F755D9 /* Frameworks */,
-				38A8F8FCBCC98457356553311F15A65D /* Headers */,
+				B46AA2799B3AF13576F5F85B9DF2A9C7 /* Sources */,
+				F44DF4CBEE8B9F62428361CDD926C955 /* Frameworks */,
+				A04647002D524D9C95E9E2ED29C8247D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -326,7 +401,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADD3749579EB97064F28C22611200A1C /* MobiBrainsSwiftUtils */,
+				FB2D0E15688C384F556580EEB81BD10D /* MobiBrainsSwiftUtils */,
 				1D9DF62236BB59730B63EE7290041B89 /* Pods-Example */,
 				2CF55AF6CEF7FB76A5BFEF2DC397D751 /* Pods-ExampleUITests */,
 			);
@@ -334,16 +409,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		56F2C2C58F694D62A2786658CC7FA2F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				224F3F83040F57E0D5F2E82F2EE06718 /* Info.plist in Sources */,
-				70D1DE76BFD114635E48A6B929C990B7 /* MobiBrainsSwiftUtils-dummy.m in Sources */,
-				679D285347677F701DA3537CFAD4AEE8 /* Test.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62103DB351F292BEEE676D40E4004EA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,51 +425,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B46AA2799B3AF13576F5F85B9DF2A9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24B1C90C6C48F61E1661A25C9DB600 /* AppInfo.swift in Sources */,
+				0C35FD8058743090FBF9AF28369F9023 /* ArrayExtensions.swift in Sources */,
+				F975FDA5124F71B4258954F7948A1B4D /* CGFloatExtensions.swift in Sources */,
+				D676C381F167D15E2FE0FE5873D1AA59 /* CGRectExtensions.swift in Sources */,
+				3B44932582D7B3E4812B491DB85C4B48 /* ColorExtension.swift in Sources */,
+				6EDE7F305D992E7A36D9D9A97BD209B2 /* DictionaryExtensions.swift in Sources */,
+				4343761EF131E16D77160FD6C8EA6897 /* Info.plist in Sources */,
+				8A09C3BE6D815113C59CABA135F258EF /* Log.swift in Sources */,
+				31453A4D8206F68CD43DDF308636F0DC /* MobiBrainsSwiftUtils-dummy.m in Sources */,
+				C32C0DC3755D0223DA5EC89694F9A4FC /* Theme.swift in Sources */,
+				F805A2F20D117927916387D03B942D80 /* UILabelExtensions.swift in Sources */,
+				F67421FD4F12445D37900085CACC8FE2 /* UITextfieldExtension.swift in Sources */,
+				8B66EB91AD56B7A8F57DBF8DF680E3FD /* Validator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		3043C2A00E2DB61C4EA995B8E62F562A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MobiBrainsSwiftUtils;
-			target = ADD3749579EB97064F28C22611200A1C /* MobiBrainsSwiftUtils */;
+			target = FB2D0E15688C384F556580EEB81BD10D /* MobiBrainsSwiftUtils */;
 			targetProxy = AA053A9D0C09B32CDDF7034E1A41D041 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0885287EFBEF7F9898B92688C45B5993 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C37BF047EDE7D3653E5E512548CAB7DB /* MobiBrainsSwiftUtils.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MobiBrainsSwiftUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils.modulemap";
-				PRODUCT_NAME = MobiBrainsSwiftUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		09A3DF62C6DA698D65EA36C3BE9FDCB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -460,6 +512,39 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3D5BA24D19D15E3589106B6AE1FE95CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DA3E6FF2FC26B38F35677A8CB96DF1 /* MobiBrainsSwiftUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobiBrainsSwiftUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils.modulemap";
+				PRODUCT_NAME = MobiBrainsSwiftUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -593,6 +678,38 @@
 			};
 			name = Debug;
 		};
+		7E4B0E5869B9223F69627CD938B319F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DA3E6FF2FC26B38F35677A8CB96DF1 /* MobiBrainsSwiftUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobiBrainsSwiftUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils.modulemap";
+				PRODUCT_NAME = MobiBrainsSwiftUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		864C1BCC21019C8FA87713717CC74C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50A032BD96FA5E00FB90F8871E159E41 /* Pods-Example.debug.xcconfig */;
@@ -622,38 +739,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CBB0B4FF23D38083A2893B7BB6B04D14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C37BF047EDE7D3653E5E512548CAB7DB /* MobiBrainsSwiftUtils.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MobiBrainsSwiftUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MobiBrainsSwiftUtils/MobiBrainsSwiftUtils.modulemap";
-				PRODUCT_NAME = MobiBrainsSwiftUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -716,11 +801,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73703BBD0DA6586137364AE80A5B859D /* Build configuration list for PBXNativeTarget "MobiBrainsSwiftUtils" */ = {
+		79006E47A476CCAA5D3BB1656A589730 /* Build configuration list for PBXNativeTarget "MobiBrainsSwiftUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBB0B4FF23D38083A2893B7BB6B04D14 /* Debug */,
-				0885287EFBEF7F9898B92688C45B5993 /* Release */,
+				7E4B0E5869B9223F69627CD938B319F6 /* Debug */,
+				3D5BA24D19D15E3589106B6AE1FE95CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

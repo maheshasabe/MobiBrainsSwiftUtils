@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ADD3749579EB97064F28C22611200A1C"
+               BlueprintIdentifier = "FB2D0E15688C384F556580EEB81BD10D"
                BlueprintName = "MobiBrainsSwiftUtils"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "MobiBrainsSwiftUtils.framework">

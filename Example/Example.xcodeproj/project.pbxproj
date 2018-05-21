@@ -15,6 +15,7 @@
 		EE359CEC20AD798A0060E75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE359CEB20AD798A0060E75A /* Assets.xcassets */; };
 		EE359CEF20AD798A0060E75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE359CED20AD798A0060E75A /* LaunchScreen.storyboard */; };
 		EE359CFA20AD798A0060E75A /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE359CF920AD798A0060E75A /* ExampleUITests.swift */; };
+		EEA4D6B720B2B0B500145A95 /* DefaultTheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEA4D6B620B2B0B500145A95 /* DefaultTheme.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		EE359CF520AD798A0060E75A /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE359CF920AD798A0060E75A /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		EE359CFB20AD798A0060E75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA4D6B620B2B0B500145A95 /* DefaultTheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultTheme.plist; sourceTree = "<group>"; };
 		F1E32881CD675F8748E5C6A8 /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				EE359CE420AD798A0060E75A /* AppDelegate.swift */,
+				EEA4D6B620B2B0B500145A95 /* DefaultTheme.plist */,
 				EE359CE620AD798A0060E75A /* ViewController.swift */,
 				EE359CE820AD798A0060E75A /* Main.storyboard */,
 				EE359CEB20AD798A0060E75A /* Assets.xcassets */,
@@ -217,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA4D6B720B2B0B500145A95 /* DefaultTheme.plist in Resources */,
 				EE359CEF20AD798A0060E75A /* LaunchScreen.storyboard in Resources */,
 				EE359CEC20AD798A0060E75A /* Assets.xcassets in Resources */,
 				EE359CEA20AD798A0060E75A /* Main.storyboard in Resources */,
