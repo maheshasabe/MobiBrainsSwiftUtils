@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EE359CD020AD775A0060E75A /* MobiBrainsSwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EE359CCE20AD775A0060E75A /* MobiBrainsSwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE359CD720AD776F0060E75A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE359CD620AD776F0060E75A /* Test.swift */; };
+		EEA4D6F020B2BF8600145A95 /* AppInfo in Resources */ = {isa = PBXBuildFile; fileRef = EEA4D6EB20B2BF8600145A95 /* AppInfo */; };
+		EEA4D6F120B2BF8600145A95 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = EEA4D6EC20B2BF8600145A95 /* Extensions */; };
+		EEA4D6F220B2BF8600145A95 /* Theme in Resources */ = {isa = PBXBuildFile; fileRef = EEA4D6ED20B2BF8600145A95 /* Theme */; };
+		EEA4D6F320B2BF8600145A95 /* Validation in Resources */ = {isa = PBXBuildFile; fileRef = EEA4D6EE20B2BF8600145A95 /* Validation */; };
+		EEA4D6F420B2BF8600145A95 /* Log in Resources */ = {isa = PBXBuildFile; fileRef = EEA4D6EF20B2BF8600145A95 /* Log */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE359CCB20AD775A0060E75A /* MobiBrainsSwiftUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobiBrainsSwiftUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE359CCE20AD775A0060E75A /* MobiBrainsSwiftUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobiBrainsSwiftUtils.h; sourceTree = "<group>"; };
 		EE359CCF20AD775A0060E75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE359CD620AD776F0060E75A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		EEA4D6EB20B2BF8600145A95 /* AppInfo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppInfo; sourceTree = "<group>"; };
+		EEA4D6EC20B2BF8600145A95 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		EEA4D6ED20B2BF8600145A95 /* Theme */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Theme; sourceTree = "<group>"; };
+		EEA4D6EE20B2BF8600145A95 /* Validation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Validation; sourceTree = "<group>"; };
+		EEA4D6EF20B2BF8600145A95 /* Log */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Log; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +56,13 @@
 		EE359CCD20AD775A0060E75A /* MobiBrainsSwiftUtils */ = {
 			isa = PBXGroup;
 			children = (
+				EEA4D6EB20B2BF8600145A95 /* AppInfo */,
+				EEA4D6EC20B2BF8600145A95 /* Extensions */,
+				EEA4D6EF20B2BF8600145A95 /* Log */,
+				EEA4D6ED20B2BF8600145A95 /* Theme */,
+				EEA4D6EE20B2BF8600145A95 /* Validation */,
 				EE359CCE20AD775A0060E75A /* MobiBrainsSwiftUtils.h */,
 				EE359CCF20AD775A0060E75A /* Info.plist */,
-				EE359CD620AD776F0060E75A /* Test.swift */,
 			);
 			path = MobiBrainsSwiftUtils;
 			sourceTree = "<group>";
@@ -125,6 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA4D6F220B2BF8600145A95 /* Theme in Resources */,
+				EEA4D6F320B2BF8600145A95 /* Validation in Resources */,
+				EEA4D6F420B2BF8600145A95 /* Log in Resources */,
+				EEA4D6F120B2BF8600145A95 /* Extensions in Resources */,
+				EEA4D6F020B2BF8600145A95 /* AppInfo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE359CD720AD776F0060E75A /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
